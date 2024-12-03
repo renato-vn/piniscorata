@@ -54,7 +54,7 @@ const App = () => {
             Piñisco
           </div>
 
-          <Paragraph text="¡Hola! Soy Piñisco, un artista cuya esencia nace del deseo profundo de expresar y exteriorizar lo que siento. Mi primer acercamiento con la música fue a través de la guitarra, que comencé a aprender cuando tenía 7 u 8 años. Desde entonces, supe que la música sería mi forma de comunicarme con el mundo." />
+          <Paragraph text="¡Hola! Soy Piñisco, artista cuya esencia nace del deseo profundo de expresar y exteriorizar lo que siente. Mi primer acercamiento con la música fue a través de la guitarra, que comencé a aprender cuando tenía 7 u 8 años. Desde entonces, supe que la música sería mi forma de comunicarme con el mundo." />
 
           <Paragraph text="A lo largo de los años, he seguido explorando distintos instrumentos, como la batería y el bajo. De hecho, me gusta tocar cualquier instrumento que me llame la atención, ya que suelo tocar por oído. Esta capacidad me ha permitido enriquecer mi creatividad y experimentar con diferentes sonidos y estilos." />
 
