@@ -24,7 +24,7 @@ const App = () => {
   return (
     <>
       {/* SECCIÓN 1 */}
-      <section className="flex flex-col md:flex-row items-center p-20 bg-orange-500 justify-evenly mb-5">
+      <section className="flex flex-col items-center p-20 bg-orange-500 justify-evenly mb-5">
         <div>
           <img
             className="object-cover rounded-lg h-80 md:h-96 object-bottom mb-5"
@@ -34,7 +34,7 @@ const App = () => {
             src={PiniscoValpo1}
           />
           <div className="flex gap-2 items-center justify-center mb-5">
-            <TbGenderTransgender className="text-5xl text-white hover:text-purple-900" />
+            <TbGenderTransgender className="text-6xl text-white hover:text-purple-900" />
             <div className="text-center text-xl md:text-start text-purple-900 md:text-2xl font-mynerve">
               Pronombres: Él
             </div>
@@ -42,12 +42,14 @@ const App = () => {
               src="https://giphy.com/embed/ZNSzHf2UK6Ul87ktD0"
               width="60"
               height="60"
-              className="giphy-embed rounded-full"
+              className="giphy-embed rounded-full "
               allowFullScreen
+              style={{ pointerEvents: "none" }}
             ></iframe>
           </div>
         </div>
-        <div className="flex flex-col w-full md:w-2/5">
+
+        <div className="flex flex-col w-full">
           <div className="font-knewave text-center md:text-start text-5xl text-purple-900 md:hover:text-purple-900 md:text-white mb-5">
             Piñisco
           </div>
