@@ -24,7 +24,7 @@ const App = () => {
   return (
     <>
       {/* SECCIÓN 1 */}
-      <section className="flex flex-col items-center p-20 bg-orange-500 justify-evenly mb-5">
+      <section className="flex flex-col items-center p-20 bg-orange-500 justify-evenly">
         <div>
           <img
             className="object-cover rounded-lg h-80 md:h-96 object-bottom mb-5"
@@ -34,8 +34,8 @@ const App = () => {
             src={PiniscoValpo1}
           />
           <div className="flex gap-2 items-center justify-center mb-5">
-            <TbGenderTransgender className="text-6xl text-white hover:text-purple-900" />
-            <div className="text-center text-xl md:text-start text-purple-900 md:text-2xl font-mynerve">
+            <TbGenderTransgender className="text-6xl text-white hover:text-purple-800" />
+            <div className="text-center text-xl md:text-start text-purple-800 md:text-2xl font-mynerve">
               Pronombres: Él
             </div>
             <iframe
@@ -50,7 +50,7 @@ const App = () => {
         </div>
 
         <div className="flex flex-col w-full">
-          <div className="font-knewave text-center md:text-start text-5xl text-purple-900 md:hover:text-purple-900 md:text-white mb-5">
+          <div className="font-knewave text-center md:text-start text-5xl text-purple-800 md:hover:text-purple-800 md:text-white mb-5">
             Piñisco
           </div>
 
@@ -94,7 +94,7 @@ const App = () => {
       </section>
 
       {/* SECCIÓN 2 */}
-      <section className="flex flex-col items-center justify-center mb-10">
+      <section className="flex flex-col bg-purple-800 items-center justify-center py-10">
         <SoundCloudSong url="https://soundcloud.com/pinisco/mariobrosswave" />
         <SoundCloudSong url="https://soundcloud.com/pinisco/abstinencia" />
         <SoundCloudSong url="https://soundcloud.com/pinisco/drumandbass" />
@@ -111,6 +111,31 @@ const App = () => {
         <ImageFromGallery img={PiniscoValpo4} />
         <ImageFromGallery img={PiniscoValpo5} />
         <ImageFromGallery img={PiniscoValpo6} />
+      </section>
+
+      {/** Youtube */}
+      <section className="bg-purple-800 p-20">
+        <div className="font-knewave text-center md:text-start text-5xl text-orange-500 md:hover:text-orange-500 md:text-white mb-5">
+          Contenido
+        </div>
+
+        <div className="flex flex-col gap-5 md:flex-row">
+          <iframe
+            className="md:w-1/2"
+            height={512}
+            src="https://www.youtube.com/embed/sViL6Ow7Wfw?si=CbZJxsfM6iGeqeVE"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          ></iframe>
+
+          <iframe
+            className="md:w-1/2"
+            height={512}
+            src="https://www.youtube.com/embed/gYpKwpirb2E?si=jFlfK_2qhzCMvGfs"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          ></iframe>
+        </div>
       </section>
 
       {/* FOOTER */}
