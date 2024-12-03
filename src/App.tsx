@@ -33,16 +33,14 @@ const App = () => {
             alt="piñisco🐭"
             src={PiniscoValpo1}
           />
+
           <div className="flex gap-2 items-center justify-center mb-5">
             <TbGenderTransgender className="text-6xl text-white hover:text-purple-800" />
-            <div className="text-center text-xl md:text-start text-purple-800 md:text-2xl font-mynerve">
-              Pronombres: Él
-            </div>
             <iframe
               src="https://giphy.com/embed/ZNSzHf2UK6Ul87ktD0"
               width="60"
               height="60"
-              className="giphy-embed rounded-full "
+              className="giphy-embed rounded-full"
               allowFullScreen
               style={{ pointerEvents: "none" }}
             ></iframe>

@@ -13,6 +13,7 @@ module.exports = {
       fontFamily: {
         knewave: ["Knewave", "sans-serif"],
         mynerve: ["Mynerve", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"],
       },
     },
   },
