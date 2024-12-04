@@ -5,7 +5,7 @@ interface Props {
 const ImageFromGallery = ({ img }: Props) => {
   return (
     <img
-      className="object-cover rounded-lg h-96 object-center px-5 md:px-0"
+      className="w-80 md:w-96 object-fill rounded-lg h-96 object-center mx-5 md:mx-0 md:px-0"
       alt="piñisco"
       src={img}
       width={400}

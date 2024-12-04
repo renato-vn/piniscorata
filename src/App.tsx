@@ -102,7 +102,7 @@ const App = () => {
       </section>
 
       {/* SECCIÓN 3 */}
-      <section className="flex flex-wrap items-center justify-center bg-orange-500 gap-5 md:px-60 py-20">
+      <section className="flex flex-wrap items-center justify-center bg-orange-500 gap-5 py-20">
         <ImageFromGallery img={PiniscoValpo2} />
         <ImageFromGallery img={PiniscoValpo3} />
         <ImageFromGallery img={PiniscoValpo1} />
